@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    Helvetica, Lucida Grande, Arial, sans-serif;
+}
+i {
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+}
+li {
+  cursor: pointer;
+}
+.componentHeight {
+  height: 90vh !important;
+}
+/*==> theme colors <==  */
+
+.theme-green {
+  background-color: #00a884;
+}
+.chat-green {
+  background-color: #dcf8c6;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+/* ====> login <==== */
+
+.login-page-main {
+  height: 15rem;
+}
+.logo-margin {
+  margin-left: 15rem;
+}
+.login-modal {
+  position: absolute;
+  height: 50rem;
+}
+
+.test {
+  font-weight: 300;
+}
+.qr-image {
+  height: 15rem;
+  width: 15rem;
+}
+
+.play-btn {
+  display: flex;
+  margin-top: 6rem;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.418) !important;
+  border: 2px solid white;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+.pause-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  overflow: hidden;
+}
+
+.btn-main-play {
+  position: absolute;
+}
+
+/* =====> home page <====== */
+.dp {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.ul-chat {
+  list-style: none;
+  padding: 0;
+  padding-bottom: 3rem;
+  height: 85vh;
+}
+
+.contact-list {
+  height: 100vh;
+}
+
+.search-icon {
+  margin-left: 0.8rem;
+  margin-top: 0.7rem;
+}
+.chat-default-container {
+  margin-top: 10rem;
+}
+.homePage-image {
+  margin-left: 15rem;
+  height: 40rem;
+  width: 40rem;
+}
+
+.chat-box-wallpaper {
+  background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+  background-position: center;
+  background-size: contain;
+  height: 100vh;
+  width: 100vw;
+}
+.chat-bar {
+  bottom: 1.2rem;
+  width: 74%;
+}
+.mainHomePage {
+  height: 95vh !important ;
+}
+.homepage {
+  width: 97% !important;
+}
+
+.mainHomePage {
+  height: 95vh !important ;
+}
+.homepage {
+  width: 97% !important;
+}
+.profile-pic {
+  height: 11rem;
+  width: 11rem;
+  border-radius: 50%;
+}
+.profile-pic-settings {
+  height: 5.5rem;
+  width: 5.5rem;
+  border-radius: 50%;
+}
+
+.theme-green-dark {
+  background-color: #008069;
+}
+
+.settings-header-width {
+  width: 25rem;
+  height: 9rem !important;
+}
+.shadow-hover:hover {
+  box-shadow: 2px 10px 10px rgba(128, 128, 128, 0.258);
+}
+.modal-white-bg {
+  background-color: rgba(255, 255, 255, 0.807);
+}
+
+.custom-hover-settings:hover {
+  background: rgba(128, 128, 128, 0.103);
+}
+
+.chat-coming {
+  max-width: 90%;
+  word-break: break-all;
+  width: fit-content;
+}
+
+.time-fs {
+  font-size: 0.8rem;
+}
+
+.test-w {
+  width: 100%;
+}
+
+.test-mc-width {
+  max-width: 50%;
+}
+.chat-shadow {
+  box-shadow: 0px 1px 3px rgba(128, 128, 128, 0.462);
+}
+
+.chat-img-sec {
+  max-height: 20rem;
+  max-width: 31%;
+}
+
+.chat-image {
+  width: 100%;
+  height: 100%;
+}
+
+.pdf {
+  height: 2rem;
+  width: 2rem;
+}
+.pdf-bg {
+  background-color: rgba(128, 128, 128, 0.136);
+  border-radius: 0.5rem;
+}
+
+.chat-pdf-sec {
+  width: 40%;
+}
+
+.inItImage {
+  height: 75%;
+  width: 75%;
+}
+
+.scrollBar {
+  height: 78.5% !important;
+}
+
+.bottom-custom-download {
+  bottom: 1.6rem;
+  right: 0.6rem;
+
+  border: 1px solid;
+  border-radius: 50%;
+}
